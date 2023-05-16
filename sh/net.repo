@@ -1,0 +1,12 @@
+[Net-source1]
+name=qinghua-net-source1
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/epel/8/Everything/x86_64/
+enabled=1
+gpgcheck=0
+priority=2
+[Net-source2]
+name=qinghua-net-source2
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/epel/8/Modular/x86_64/
+enabled=1
+gpgcheck=0
+priority=2

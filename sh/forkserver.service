@@ -1,0 +1,10 @@
+[Unit] 
+Description=Fork
+After=network.target 
+[Service] 
+Type=forking 
+ExecStart=/root/fork.sh start
+ExecStop= /root/fork.sh stop
+
+[Install] 
+WantedBy=multi-user.target
